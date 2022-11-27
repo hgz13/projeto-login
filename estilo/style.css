@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+main {
+    position: absolute;
+    max-width: 25vw;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid black;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+main > form > h1{
+    text-align: center;
+    padding-bottom: 25px;
+    font-size: 1.9em;
+}
+
+.text {
+    font-size: 1em;
+}
+
+.input {
+    padding: 10px;
+    border-radius: 15px;
+    margin: 10px 0px;
+    background-color: #94cfcd;
+}
