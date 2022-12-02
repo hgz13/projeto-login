@@ -18,9 +18,9 @@ body {
 
  #form {
     position: absolute;
-    top: 59%;
+    top: 60%;
     left: 50%;
-    transform: translate(-50%, -44%);
+    transform: translate(-50%, -43%);
     width: 263px;
     background-color: white;
     padding: 10px;
