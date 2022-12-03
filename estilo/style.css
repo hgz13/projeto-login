@@ -1,92 +1,47 @@
 @charset "UTF-8";
 
 * {
-    margin: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     padding: 0px;
-    font-family: Arial, Helvetica, sans-serif;
-    box-sizing: border-box
+    margin: 0px;
+    box-sizing: border-box;
 }
 
-body {
+body, html {
     background-color: #5f2c82;
-    position: relative;
     width: 100vw;
     height: 100vh;
 }
 
+main {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
 
-
- #form {
+#login {
     position: absolute;
-    top: 60%;
+    top: 50%;
     left: 50%;
-    transform: translate(-50%, -43%);
-    width: 263px;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
     background-color: white;
-    padding: 10px;
-    border: 1px solid black;
-    border-radius: 0px 0px 15px 15px;
-    box-shadow: 3px 3px 10px black;
+    width: 250px;
+    height: 500px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.455);
 }
 
-#form > h1 {
-    padding-bottom: 15px;
-    text-align: center;
-}
-
-#form > p {
-    padding-bottom: 25px;
-}
-
-#imagem {
-    position: absolute;
-    background-image: url(../imagens/pexels-dinnow-9444476.jpg);
-    background-repeat: no-repeat;
+#login > #imagem {
+    display: block;
+    background: #5f2c82 url(../imagens/pexels-dinnow-9444476.jpg);
+    height: 200px;
     background-size: cover;
-    width: 262px;
-    height: 29vh;
-    top: 36%;
-    left: 50%;
-    transform: translate(-50%,-100%);
-    border-radius: 15px 15px 0px 0px;
-    border: 0.5px solid black;
-    box-shadow: 3px 3px 10px black;
+    background-repeat: no-repeat;
+    background-position: right top;
 }
 
-#email, #senha{
+#login > #formulario {
     display: block;
-    margin: auto;
-    border: 3px solid #5f2c82;
-    width: 220px;
-    height: 35px;
-    padding: 5px;
-    border-radius: 15px;
-    background-color: #94cfcd;
+    padding: 10px;
 }
-
-#entrar {
-    display: block;
-    background-color: #53aaa7;
-    color: white;
-    border: none;
-    text-align: center;
-    margin: auto;
-    width: 240px;
-    height: 40px;
-    border-radius: 15px;
-    font-weight: bolder;
-}
-
-#sen {
-    display: block;
-    margin: auto;
-    text-align: center;
-    border: 1px solid #53aaa7;
-    color: #53aaa7;
-    font-weight:bolder ;
-    margin-bottom: 10px;
-    border-radius: 15px;
-    width: 240px;
-    height: 40px;
-}
-
