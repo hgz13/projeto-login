@@ -19,10 +19,18 @@
                 <h1>Login</h1>
                 <p>Seja bem-vindo(a) novamente.Faça login para poder acessar sua conta e fazer as configurações no seu ambiente.</p>
                 <form action="login.php" method="post">
-                    <p><input type="text" name="caixa" id="caixa" placeholder="e-mail"></p>
-                    <p><input type="password" name="senha" id="senha" placeholder="senha"></p>
-                    <p><input type="submit" value="entrar"></p>
-                    <p><input type="button" value="esqueci minha senha"></p>
+                    <div>
+                        <input type="text" name="caixa" id="caixa" placeholder="e-mail"> 
+                        <label for="caixa">Login</label>
+                    </div>
+                    <div>
+                        <input type="password" name="senha" id="senha" placeholder="sua senha">
+                        <label for="senha">senha</label>
+                    </div>
+                    <div>
+                        <input type="submit" value="entrar">
+                        <input type="button" value="esqueci minha senha">
+                    </div>
                 </form>
             </div>
         </section>
