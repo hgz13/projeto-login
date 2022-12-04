@@ -47,3 +47,20 @@ main {
     display: block;
     padding: 10px;
 }
+
+#formulario > h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#formulario > p {
+    font-size: 0.8em;
+}
+
+#caixa {
+    background-color: #49a09d;
+}
+
+#senha {
+    background-color: #49a09d;
+}
